@@ -56,9 +56,6 @@ print(img.shape)
 ### OUTPUT
 ![Screenshot 2024-02-17 124610](https://github.com/Yeshwanthperumal/COLOR_CONVERSIONS_OF-IMAGE/assets/119476088/17fa859d-83b9-4f22-9c37-da9a54bbc2ed)
 
-<br>
-<br>
-
 ### ii)Write the image
 ```
 img1=cv2.imread("image.jpg",0)
@@ -70,9 +67,6 @@ cv2.imwrite('greyscale.jpg',img1)
 ### OUTPUT
 ![Screenshot 2024-02-17 124725](https://github.com/Yeshwanthperumal/COLOR_CONVERSIONS_OF-IMAGE/assets/119476088/eb5eb208-98d0-4c94-a1e8-03f39ff64f1e)
 
-<br>
-<br>
-
 ### iii)Shape of the Image
 ```
  import cv2
@@ -81,9 +75,6 @@ print(img1.shape)
 ```
 ### OUTPUT
 ![Screenshot 2024-02-17 125701](https://github.com/Yeshwanthperumal/COLOR_CONVERSIONS_OF-IMAGE/assets/119476088/f7d83c51-9c1d-41d6-98f2-0bf019340a17)
-
-<br>
-<br>
 
 ### iv)Access rows and columns
 ```
@@ -103,9 +94,6 @@ cv2.destroyAllWindows()
 ### OUTPUT
 ![Screenshot 2024-02-17 125953](https://github.com/Yeshwanthperumal/COLOR_CONVERSIONS_OF-IMAGE/assets/119476088/cb52e094-a86c-48ae-986f-e9b41bad42e8)
 
-<br>
-<br>
-
 ### v)Cut and paste portion of image
 ```
 import cv2
@@ -124,9 +112,6 @@ cv2.destroyAllWindows()
 ```
 #### OUTPUT
 ![Screenshot 2024-02-17 130636](https://github.com/Yeshwanthperumal/COLOR_CONVERSIONS_OF-IMAGE/assets/119476088/76147a81-31db-40d8-b563-8129920117ed)
-
-<br>
-<br>
 
 ### vi) BGR and RGB to HSV and GRAY
 ```
@@ -148,9 +133,6 @@ cv2.destroyAllWindows()
 ### OUTPUT
 ![Screenshot 2024-02-17 132245](https://github.com/Yeshwanthperumal/COLOR_CONVERSIONS_OF-IMAGE/assets/119476088/e9da333b-aa72-4c6d-a75b-a472045c6f00)
 
-<br>
-<br>
-
 ### vii) HSV to RGB and BGR
 ```
 import cv2
@@ -168,9 +150,6 @@ cv2.destroyAllWindows()
 ### OUTPUT
 ![Screenshot 2024-02-17 132519](https://github.com/Yeshwanthperumal/COLOR_CONVERSIONS_OF-IMAGE/assets/119476088/978191db-8644-49ef-b97c-bef12004fd69)
 
-<br>
-<br>
-
 ### viii) RGB and BGR to YCrCb
 ```
 import cv2
@@ -186,9 +165,6 @@ cv2.destroyAllWindows()
 ```
 ### OUTPUT
 ![Screenshot 2024-02-17 132633](https://github.com/Yeshwanthperumal/COLOR_CONVERSIONS_OF-IMAGE/assets/119476088/4fad6811-3fac-4363-83b5-8ded777e8c52)
-
-<br>
-<br>
 
 ### ix) Split and merge RGB Image
 ```
@@ -209,9 +185,6 @@ cv2.destroyAllWindows()
 ### OUPUT
 ![Screenshot 2024-02-17 132812](https://github.com/Yeshwanthperumal/COLOR_CONVERSIONS_OF-IMAGE/assets/119476088/0cf803cb-715c-4775-8c06-67b36f5b0986)
 
-<br>
-<br>
-
 ### x) Split and merge HSV Image
 ```
 import cv2
@@ -229,12 +202,6 @@ cv2.destroyAllWindows()
 ```
 ### OUTPUT
 ![Screenshot 2024-02-17 132957](https://github.com/Yeshwanthperumal/COLOR_CONVERSIONS_OF-IMAGE/assets/119476088/9ee0f979-fc13-401d-bb20-869d2dc4d3f4)
-
-<br>
-<br>
-
-
-
 
 ## Result:
 Thus the images are read, displayed, and written ,and color conversion was performed between RGB, HSV and YCbCr color models successfully using the python program.
